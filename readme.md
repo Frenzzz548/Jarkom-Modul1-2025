@@ -162,6 +162,7 @@
 ## Task 3
 
 - Flag
+  
   `JARKOM25{W0w_Y0uU_h4V33e_d0n3_444_9ood_j0bB_1FE0Pg0dl1k3gqlzwt2y0svvpodhncpdmy_cf9a937c7ebbd5107199f62a67eb9715}`
 
 > a. Pada port berapa client telnet terbuka?
@@ -252,7 +253,7 @@
 
 - Flag
 
-`JARKOM25{G04t__a4n4liz333er_NPISU7MXCGG5N4D0QXOOfr0gixro2rdtnc8tzbzr3ys7050166420_04be7ea5ea27cb6389d06d3d8461b8e9}`
+  `JARKOM25{G04t__a4n4liz333er_NPISU7MXCGG5N4D0QXOOfr0gixro2rdtnc8tzbzr3ys7050166420_04be7ea5ea27cb6389d06d3d8461b8e9}`
 
 > a. Apa perintah pertama yang ditulis client pada koneksi telnet?
 
@@ -320,6 +321,7 @@
 ## Task 5
 
 - Flag
+  
   `JARKOM25{n4il0ng_m1lk_dr4g000n_RL6HH65EB92RF2T05DSUQTQXMLXJYYcr0c1v04hu6j3isln5nx9x0ob434_938c61b2e35cc578c858e491c092ee70}`
 
 > a. Berapa banyak packet berbasis HTTP yang terekam pada file pcapng?
@@ -409,6 +411,7 @@
 ## Task 6
 
 - Flag
+  
  `JARKOM25{br0mb44rdin0u_Cr0ccc0c0c0cdi1l10l_5929151114awaesalabqnqhdotsh1n0buBNHFFEFYK91AOZ2_b0fc0504b0cedfd7219647db13f318d9}`
 
 > a. Apakah kamu menemukan fake flag? Tuliskan seluruhnya!
@@ -483,6 +486,7 @@
 ## Task 8
 
 - Flag
+  
   `JARKOM25{y0u_4r3_s0_G00d_1n_F0r3nsic_6ALN8PONQJF1GB8CL5UUZCHVMKIIHAx45y4n61rgu058amsie6wlbi9mdaa0_ac22c09cf55210d98ac5e637308d55c3}`
 
 > a. Berapa banyak packet berbasis FTP yang terekam pada file pcapng? (with the data)
@@ -552,7 +556,7 @@
 
 - Flag
 
-`JARKOM25{j4rk000000mm_g4mpp4444n999999_40909707358i41L4hlrgjapz08l321k0ncolXILJW7BTGHQVWJ7_9aef277cb99e980cc3f2ebaefcb4c24b}`
+  `JARKOM25{j4rk000000mm_g4mpp4444n999999_40909707358i41L4hlrgjapz08l321k0ncolXILJW7BTGHQVWJ7_9aef277cb99e980cc3f2ebaefcb4c24b}`
 
 > a. Apa alamat IP dari FTP server?
 
