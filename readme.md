@@ -411,8 +411,8 @@
 ## Task 6
 
 - Flag
-  
- `JARKOM25{br0mb44rdin0u_Cr0ccc0c0c0cdi1l10l_5929151114awaesalabqnqhdotsh1n0buBNHFFEFYK91AOZ2_b0fc0504b0cedfd7219647db13f318d9}`
+
+  `JARKOM25{br0mb44rdin0u_Cr0ccc0c0c0cdi1l10l_5929151114awaesalabqnqhdotsh1n0buBNHFFEFYK91AOZ2_b0fc0504b0cedfd7219647db13f318d9}`
 
 > a. Apakah kamu menemukan fake flag? Tuliskan seluruhnya!
 
