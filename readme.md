@@ -723,5 +723,9 @@
   <br>
 
 ## Summary
+  Pada praktikum modul 1 ini mahasiswa diajarkan untuk penggunaan filter, analisis, dan ketelitian memahami serta menjawab soal yang ada, meskipun saya sendiri beberapa melakukan brute force tidak mengandalkan filter
 
 ## Problems
+  - pada satu jam pertama kebingungan dengan prosedur pengerjaan soal
+  - kekurangan atau kesulitan dalam menejemen waktu
+  - nomer 2 bikin pusing :v
