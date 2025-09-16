@@ -281,7 +281,7 @@
 
 - Output result
 
-  `put your output result here`<img width="1254" height="235" alt="soal 4a" src="https://github.com/user-attachments/assets/28c26cc4-6994-4c01-aeeb-9e6abec2cb35" />
+  <img width="1254" height="235" alt="soal 4a" src="https://github.com/user-attachments/assets/28c26cc4-6994-4c01-aeeb-9e6abec2cb35" />
 
 
   <br>
@@ -303,7 +303,7 @@
 
 - Output result
 
-  `put your output result here`<img width="1249" height="746" alt="soal 4b" src="https://github.com/user-attachments/assets/8961a501-d214-4c2e-81d5-10f78713076d" />
+  <img width="1249" height="746" alt="soal 4b" src="https://github.com/user-attachments/assets/8961a501-d214-4c2e-81d5-10f78713076d" />
 
 
   <br>
@@ -325,7 +325,7 @@
 
 - Output result
 
-  `put your output result here`<img width="1230" height="234" alt="soal 4c" src="https://github.com/user-attachments/assets/bcd211e7-bd24-4acd-9607-3755244828b2" />
+  <img width="1230" height="234" alt="soal 4c" src="https://github.com/user-attachments/assets/bcd211e7-bd24-4acd-9607-3755244828b2" />
 
 
   <br>
@@ -353,7 +353,7 @@
 
 - Output result
 
-  `put your output result here`<img width="322" height="35" alt="soal 5a" src="https://github.com/user-attachments/assets/4b68e615-6643-45c7-8168-282819279283" />
+  <img width="322" height="35" alt="soal 5a" src="https://github.com/user-attachments/assets/4b68e615-6643-45c7-8168-282819279283" />
 
 
   <br>
