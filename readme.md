@@ -1,6 +1,6 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/tPVgLsdF)
 | Name | NRP | Class |
-| ---- | --- | ----- |
+| Bagus Cahya Saputra | 5025241067 | B |
 | ...  | ... | ...   |
 
 ## Task 1
@@ -13,19 +13,20 @@
 
 > _a. How many packets are recorded in the pcapng file?_
 
-**Answer:** `put your answer here`
+**Answer:** `9596`
 
 - Filter expression
 
-  `put your filter here (if any)`
+  `-`
 
 - Explanation
 
-  `put your explanation here`
+  `untuk mengetahui packet yang ada di soal bisa dilihat pada display kanan bawah`
 
 - Output result
 
-  `put your output result here`
+  <img width="181" height="40" alt="soal 1a" src="https://github.com/user-attachments/assets/5a318157-7320-49e7-a10f-43126b543ed1" />
+
 
 <br>
 <br>
@@ -34,19 +35,20 @@
 
 > _b. How many types of protocol (totals) are recorded in the traffic?_
 
-**Answer:** `put your answer here`
+**Answer:** `12`
 
 - Filter expression
 
-  `put your filter here (if any)`
+  `-`
 
 - Explanation
 
-  `put your explanation here`
+  `telusuri melalui statistic kemudian protocol hierarchy dan terlihat ada 12 protokol yang terekam traffic`
 
 - Output result
 
-  `put your output result here`
+  <img width="1409" height="444" alt="soal 1b" src="https://github.com/user-attachments/assets/01b47829-eaf1-431d-8a86-8fb519d4829f" />
+
 
 <br>
 <br>
@@ -55,19 +57,20 @@
 
 > _c. How many types of TCP-based applications protocol are recorded in the traffic?_
 
-**Answer:** `put your answer here`
+**Answer:** `8`
 
 - Filter expression
 
-  `put your filter here (if any)`
+  `-`
 
 - Explanation
 
-  `put your explanation here`
+  `masih di laman yang sam adengan 1b bisa dihitung bawah ada 8 TCP yang terekam traffic`
 
 - Output result
 
-  `put your output result here`
+  <img width="1276" height="234" alt="soal 1c" src="https://github.com/user-attachments/assets/7a256718-7f4f-41c3-9afe-252a0472bbc6" />
+
 
   <br>
   <br>
@@ -76,19 +79,20 @@
 
 > _d. How many packets with pure TCP protocol are recorded in the traffic (without data)?_
 
-**Answer:** `put your answer here`
+**Answer:** `3223`
 
 - Filter expression
 
-  `put your filter here (if any)`
+  `-`
 
 - Explanation
 
-  `put your explanation here`
+  `masih di laman yang sama juga, bisa dilihat pada TCP kolom end packets (biasanya tidak ada data) ada 3223`
 
 - Output result
 
-  `put your output result here`
+  <img width="1106" height="367" alt="soal 1d" src="https://github.com/user-attachments/assets/6d554bd5-ef19-4fad-9930-11e8a67ff4ba" />
+
 
 ## Task 2
 
@@ -169,19 +173,20 @@
 
 > _a. In what port is the telnet client open?_
 
-**Answer:** `put your answer here`
+**Answer:** `54184`
 
 - Filter expression
 
-  `put your filter here (if any)`
+  `telnet`
 
 - Explanation
 
-  `put your explanation here`
+  `ketika di filter telnet port yang digunakannya adalah 54184`
 
 - Output result
 
-  `put your output result here`
+  <img width="956" height="590" alt="soal 3a" src="https://github.com/user-attachments/assets/66423b96-4e71-4515-9edd-c8cc7d7f758c" />
+
 
   <br>
   <br>
@@ -190,19 +195,20 @@
 
 > _b. How many bytes of the response files are sent from the server?_
 
-**Answer:** `put your answer here`
+**Answer:** `1449`
 
 - Filter expression
 
-  `put your filter here (if any)`
+  `telnet`
 
 - Explanation
 
-  `put your explanation here`
+  `pilih salah satu kemudian follow tcp stream setelah itu ubah padah kiri bawah yang semulanya entire conversastion menjadi yang dikirim ke servernya (172.16.16.102:23 -> 172.16.16.101:54184)`
 
 - Output result
 
-  `put your output result here`
+  <img width="480" height="78" alt="soal 3b" src="https://github.com/user-attachments/assets/be3ac643-7718-4a0a-94de-7abd33f59702" />
+
 
   <br>
   <br>
@@ -211,19 +217,20 @@
 
 > _c. What telnet client's username is used to connect with the server?_
 
-**Answer:** `put your answer here`
+**Answer:** `jovyan`
 
 - Filter expression
 
-  `put your filter here (if any)`
+  `telnet`
 
 - Explanation
 
-  `put your explanation here`
+  `masih di laman yang sama, tetapi ganti ke sebaliknya (172.16.16.101:54184 -> 172.16.16.102:23) dengan mencocokan pada pengisian pengguna terlihat username yang dimasukkan adalah jovyan bisa juga di cek di entire conversation (untuk memudahkan ss saya pilih opsi pertama:))`
 
 - Output result
 
-  `put your output result here`
+  <img width="241" height="53" alt="soal 3cd" src="https://github.com/user-attachments/assets/3775ce42-18b7-4688-ab49-3d7db430f9cc" />
+
 
   <br>
   <br>
@@ -232,19 +239,20 @@
 
 > _d. What is the telnet client's password?_
 
-**Answer:** `put your answer here`
+**Answer:** `123`
 
 - Filter expression
 
-  `put your filter here (if any)`
+  `telnet`
 
 - Explanation
 
-  `put your explanation here`
+  `masih di laman yang sama dan cara yang sama seperti 3c di (172.16.16.101:54184 -> 172.16.16.102:23) dengan mencocokan pada pengisian pengguna terlihat password yang dimasukkan adalah 123 bisa juga di cek di entire conversation (untuk memudahkan ss saya pilih opsi pertama:))`
 
 - Output result
 
-  `put your output result here`
+  <img width="241" height="53" alt="soal 3cd" src="https://github.com/user-attachments/assets/0cbf2163-1c41-4a1c-92a0-7d8ccbb03372" />
+
 
   <br>
   <br>
@@ -259,19 +267,20 @@
 
 > _a. What is the first command that client wrote on telnet connection?_
 
-**Answer:** `put your answer here`
+**Answer:** `echo`
 
 - Filter expression
 
-  `put your filter here (if any)`
+  `telnet`
 
 - Explanation
 
-  `put your explanation here`
+  `masih dilaman yang sama dengan task sebelumnya kita pindah lagi ke entire conversation bisa diperhatikan perintah setelah memasukkan password adalah echo`
 
 - Output result
 
-  `put your output result here`
+  `put your output result here`<img width="1254" height="235" alt="soal 4a" src="https://github.com/user-attachments/assets/28c26cc4-6994-4c01-aeeb-9e6abec2cb35" />
+
 
   <br>
   <br>
@@ -280,19 +289,20 @@
 
 > _b. What is the name of .txt file on the server (write with the extension)?_
 
-**Answer:** `put your answer here`
+**Answer:** `test.txt`
 
 - Filter expression
 
-  `put your filter here (if any)`
+  `telnet`
 
 - Explanation
 
-  `put your explanation here`
+  `masih dilaman yang sama kita beralih lagi pada bagian (172.16.16.102:23 -> 172.16.16.101:54184) bisa terlihat file .txt yang di server adalah test.txt`
 
 - Output result
 
-  `put your output result here`
+  `put your output result here`<img width="1249" height="746" alt="soal 4b" src="https://github.com/user-attachments/assets/8961a501-d214-4c2e-81d5-10f78713076d" />
+
 
   <br>
   <br>
@@ -301,19 +311,20 @@
 
 > _c. What is the first word that the client inserted into the previous file?_
 
-**Answer:** `put your answer here`
+**Answer:** `Jarkom`
 
 - Filter expression
 
-  `put your filter here (if any)`
+  `telnet`
 
 - Explanation
 
-  `put your explanation here`
+  `lagi lagi masih di laman yang sama kembali ke (172.16.16.101:54184 -> 172.16.16.102:23) terlihat kata pertama yang dimasukan adalah N.Jarkom tapi karena N dihapus menyisakan Jarkom`
 
 - Output result
 
-  `put your output result here`
+  `put your output result here`<img width="1230" height="234" alt="soal 4c" src="https://github.com/user-attachments/assets/bcd211e7-bd24-4acd-9607-3755244828b2" />
+
 
   <br>
   <br>
@@ -328,19 +339,20 @@
 
 > _a. How many HTTP packets are recorded in the pcapng file?_
 
-**Answer:** `put your answer here`
+**Answer:** `298`
 
 - Filter expression
 
-  `put your filter here (if any)`
+  `http`
 
 - Explanation
 
-  `put your explanation here`
+  `terlihat setelah di filter pada kanan bawah terdapat display sebanyak 298`
 
 - Output result
 
-  `put your output result here`
+  `put your output result here`<img width="322" height="35" alt="soal 5a" src="https://github.com/user-attachments/assets/4b68e615-6643-45c7-8168-282819279283" />
+
 
   <br>
   <br>
@@ -349,19 +361,20 @@
 
 > _b. How many response HTTP packets are recorded in the traffic?_
 
-**Answer:** `put your answer here`
+**Answer:** `149`
 
 - Filter expression
 
-  `put your filter here (if any)`
+  `http.response`
 
 - Explanation
 
-  `put your explanation here`
+  `terlihat setelah di filter pada kanan bawah terdapat display sebanyak 149`
 
 - Output result
 
-  `put your output result here`
+  <img width="315" height="33" alt="soal 5b" src="https://github.com/user-attachments/assets/745908ba-7eac-4a2f-ac32-b8c9178f4e79" />
+
 
   <br>
   <br>
@@ -370,19 +383,20 @@
 
 > _c. How many HTTP packets that succeed?_
 
-**Answer:** `put your answer here`
+**Answer:** `296`
 
 - Filter expression
 
-  `put your filter here (if any)`
+  `http`
 
 - Explanation
 
-  `put your explanation here`
+  `setelah di filter hhtp kemudian sort descending pada bagian info maka terlihat ada 2 packet yang not captured`
 
 - Output result
 
-  `put your output result here`
+  <img width="1850" height="192" alt="soal 5c" src="https://github.com/user-attachments/assets/27ace3ff-6099-4bb3-bd58-62ab223c9d68" />
+
 
   <br>
   <br>
@@ -391,19 +405,20 @@
 
 > _d. What is the client HTTP IP Address in connection with other local machine?_
 
-**Answer:** `put your answer here`
+**Answer:** `172.16.16.101`
 
 - Filter expression
 
-  `put your filter here (if any)`
+  `http.request`
 
 - Explanation
 
-  `put your explanation here`
+  `dapat dilihat pada kolom source terdata IP 172.16.16.101 dengan destinasi berbeda`
 
 - Output result
 
-  `put your output result here`
+  <img width="1129" height="125" alt="soal 5d" src="https://github.com/user-attachments/assets/639e406b-da1b-423e-ad7d-4d54594823f4" />
+
 
   <br>
   <br>
@@ -418,19 +433,22 @@
 
 > _a. Did you find the fake flag? Write it whole!_
 
-**Answer:** `put your answer here`
+**Answer:** `FakeFlag{JarkomGampang}`
 
 - Filter expression
 
-  `put your filter here (if any)`
+  `falg.txt (string)`
 
 - Explanation
 
-  `put your explanation here`
+  `karena pada hint dinyatakan bahwa fakeflag terletak di flag.txt jadi saya langsung filter sting flag.txt atau bisa temukan packet yang berisi flag.txt kemudian follow http stream dan terdapat fakeflag di dalamnya`
 
 - Output result
 
-  `put your output result here`
+  <img width="1074" height="118" alt="soal 6ab" src="https://github.com/user-attachments/assets/08b38a23-7259-4a23-942c-6936f1bb39a7" />
+
+  <img width="515" height="361" alt="soal 6a" src="https://github.com/user-attachments/assets/dab46e08-9acb-47a3-b93d-d2bd1df6bbf4" />
+
 
   <br>
   <br>
@@ -439,19 +457,20 @@
 
 > _b. Write the written username and password! (format username:password)_
 
-**Answer:** `put your answer here`
+**Answer:** `Rey:123`
 
 - Filter expression
 
-  `put your filter here (if any)`
+  `http`
 
 - Explanation
 
-  `put your explanation here`
+  `seperti terlihat pada ss sebelumnya kebetulan sudah tersort sehingga ada passwd kemudian follow http stream`
 
 - Output result
 
-  `put your output result here`
+  <img width="493" height="368" alt="soal 6b" src="https://github.com/user-attachments/assets/14672cb7-4fd4-418a-a910-c434ce6b749b" />
+
 
   <br>
   <br>
@@ -466,19 +485,20 @@
 
 > _What is the image that is being requested by the client? (write with its extension)_
 
-**Answer:** `put your answer here`
+**Answer:** `donalbebek.jpg`
 
 - Filter expression
 
-  `put your filter here (if any)`
+  `-`
 
 - Explanation
 
-  `put your explanation here`
+  `Pilih menu File kemudian Export Objects pilih HTTP setelah itu ubah content type menjadi image/jpeg`
 
 - Output result
 
-  `put your output result here`
+  <img width="1095" height="145" alt="soal 7b" src="https://github.com/user-attachments/assets/770b49d6-8fbb-4be4-9708-cb651ff1a493" />
+
 
   <br>
   <br>
@@ -493,19 +513,20 @@
 
 > _a. How many FTP packets are recorded in the pcapng file? (with the data)_
 
-**Answer:** `put your answer here`
+**Answer:** `81`
 
 - Filter expression
 
-  `put your filter here (if any)`
+  `ftp || ftp-data`
 
 - Explanation
 
-  `put your explanation here`
+  `setelah di filter dapat dilihat pada display terdata ada 81 packets`
 
 - Output result
 
-  `put your output result here`
+  <img width="1920" height="911" alt="soal 8a" src="https://github.com/user-attachments/assets/1271c347-ae4e-4789-9d2d-21ac28efcbf0" />
+
 
   <br>
   <br>
@@ -514,19 +535,20 @@
 
 > _b. What is the client's username and password in FTP connection? (write in following format username:password)_
 
-**Answer:** `put your answer here`
+**Answer:** `rey:password123lingangu`
 
 - Filter expression
 
-  `put your filter here (if any)`
+  `ftp || ftp-data`
 
 - Explanation
 
-  `put your explanation here`
+  `klik kanan dalah satu ftp kemudian follow tcp stream maka akan terlihat usernam beserta password dari client`
 
 - Output result
 
-  `put your output result here`
+  <img width="356" height="290" alt="soal 8b" src="https://github.com/user-attachments/assets/b13e54d9-17b6-42b9-ba5c-525fff21ea4a" />
+
 
   <br>
   <br>
@@ -535,19 +557,20 @@
 
 > _c. Apa command client untuk melihat direktori server yang dikirimkan dalam request packet?_
 
-**Answer:** `put your answer here`
+**Answer:** `LIST`
 
 - Filter expression
 
-  `put your filter here (if any)`
+  `ftp || ftp-data`
 
 - Explanation
 
-  `put your explanation here`
+  `masih di laman yang sama scroll ke bawah sampai menemukan cmd LIST yang terlihat meminta server mengirimkan daftar file/direktori di direktori saat ini`
 
 - Output result
 
-  `put your output result here`
+  <img width="568" height="118" alt="soal 8c" src="https://github.com/user-attachments/assets/dbeca837-c99b-42fb-a186-f31d9575070f" />
+
 
   <br>
   <br>
@@ -562,19 +585,20 @@
 
 > _a. What is the FTP server IP Address?_
 
-**Answer:** `put your answer here`
+**Answer:** `172.16.16.101`
 
 - Filter expression
 
-  `put your filter here (if any)`
+  `ftp || ftp-data`
 
 - Explanation
 
-  `put your explanation here`
+  `pada kolom info bisa dilihat ketika request pengguna destinasinya adalah 172.16.16.101 begitu juga response yang berasal 172.16.16.101 juga`
 
 - Output result
 
-  `put your output result here`
+  <img width="1522" height="381" alt="soal 9a" src="https://github.com/user-attachments/assets/3eea4fc0-098f-443f-bd7f-172bd0a858e3" />
+
 
   <br>
   <br>
@@ -583,19 +607,22 @@
 
 > _b. How many files are there inside the FTP server directory?_
 
-**Answer:** `put your answer here`
+**Answer:** `7`
 
 - Filter expression
 
-  `put your filter here (if any)`
+  `ftp-data`
 
 - Explanation
 
-  `put your explanation here`
+  `terlihat ada 3 ftp-data dengan info LIST klik kanan salah satu kemudian follow tcp-stream hitung file yang ada kecuali drwxr-xr-x yang merupakan checkpoint`
 
 - Output result
 
-  `put your output result here`
+  <img width="1920" height="1080" alt="soal 9bc" src="https://github.com/user-attachments/assets/202fb69c-cb4e-41e9-9d31-8ced4d4b67e8" />
+
+  <img width="829" height="208" alt="soal 9b" src="https://github.com/user-attachments/assets/f96722ce-1fc8-4009-b7b6-abac0a0517eb" />
+
 
   <br>
   <br>
@@ -604,19 +631,22 @@
 
 > _c. What are the filenames used in the page.html? (write the filebames with their extensions and separate them with comma ',')_
 
-**Answer:** `put your answer here`
+**Answer:** `pokijan.jpg,research_center.jpg`
 
 - Filter expression
 
-  `put your filter here (if any)`
+  `ftp-data`
 
 - Explanation
 
-  `put your explanation here`
+  `terlihat pada info salah satu packet ada page html kemudian kita follow tcp stream dan terdapat dua file jpg`
 
 - Output result
 
-  `put your output result here`
+  <img width="1920" height="1080" alt="soal 9bc" src="https://github.com/user-attachments/assets/15ee0558-1562-4807-bb97-c025fe4e0509" />
+
+  <img width="380" height="150" alt="soal 9c" src="https://github.com/user-attachments/assets/bfba6fa0-660d-49cd-9094-7db6580c71d6" />
+
 
   <br>
   <br>
